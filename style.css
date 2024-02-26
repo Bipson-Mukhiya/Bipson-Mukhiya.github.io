@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+/* height - . nav bar ko lagi height dinu ko lagi use garinxa */
+/* nav bar
+ */
+
+.nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: #414141; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px black solid ;
+}
+
+.nav .first a{
+    color: #000000;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 2rem; 
+    /* rem bhaneko pixel haru jastai ho
+    pixels ma bhanda ramro ho 1 rem = 16 pixels */
+    
+}
+
+.nav .second a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 2rem; 
+
+}
+
+/* 
+hero section - bich ko section lai hero section
+*/
+
+/* .<something> - le class lai access garna milxa 
+    #<something> - id lai access garna milxa css mah
+    */
+.hero {
+    /* height: calc(500 pixels); */
+    height: 500px;
+    width: 100%;
+    background-color: #0000;   
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* position: absolute; */
+    padding-top: 50px;
+    /* background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(0, 0, 0)); */
+
+border-bottom: 2px solid black;
+}
+
+.hero .left{
+    position: relative;
+    height: 600px;
+    width: 50%;
+    /* background-color: #4d5a2155; */
+}
+
+.hero .right{
+    height: 600px;
+    width: 50%;
+    /* background-color: #351dab55; */
+    /* background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(0, 0, 0)); */
+}
+
+.hero .right img{
+    height: 500px;
+    width: 400px;
+    border-radius: 100rem;  
+    padding-left: 150px; 
+}
+
+.hero .left {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+blockquote{
+    font-size: 50px;
+    columns: rgb(18, 182, 149);
+}
+
+.hero .left p{
+    font-size: 30px;
+    color: rgb(21, 43, 43);
+}
+
+
+.hero .left h>.name {
+    padding-top: 15px;
+    color: aqua;
+}
+
+
+
+
+
+
+
